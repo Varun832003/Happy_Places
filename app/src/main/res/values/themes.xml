@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.MaterialComponents.Light.DarkActionBar">
+
+    </style>
+    <style name="Theme.HappyPlaces" parent="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
+    <style name="CustomNoActionBarTheme" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="CustomToolBarStyle">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
+    </style>
+    <style name="CustomToolBarStyleMainActivity">
+        <item name="android:textColorPrimary"> #FFFFFF </item>
+        <item name="android:label">@string/app_name</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
+    </style>
+</resources>
